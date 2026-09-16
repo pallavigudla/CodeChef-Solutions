@@ -15,7 +15,7 @@ class Codechef
 		    if(k<=n)
 		    System.out.println("0");
 		    else
-		    System.out.println(2*(k-n));
+		    System.out.println(2*(n-k));
 		}
 	}
 }
