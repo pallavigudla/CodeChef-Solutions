@@ -12,7 +12,9 @@ class Codechef
 		int b = sc.nextInt();
 		int c =a-b;
 		if((a+b)%2==0)
-		System.out.println();
+		System.out.println(c/2);
+		else
+		System.out.println("-1");
 
 	}
 }
