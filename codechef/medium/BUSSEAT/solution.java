@@ -12,10 +12,10 @@ class Codechef
 		while(t-->0){
 		    int n = sc.nextInt();
 		    int k = sc.nextInt();
-		    int c = n*2;
-		    int d = c/2;
-		    int f= c-d;
-		    System.out.println(f+d);
+		    if(k<=n)
+		    System.out.println("0");
+		    else
+		    System.out.println(2*(n-k));
 		}
 	}
 }
