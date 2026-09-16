@@ -54,7 +54,7 @@ Hence, persons $1$ and $3$ share a row in this instance, so there are $2$ people
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T15:51:44.523Z  
+**Submitted:** 2026-09-16T15:51:24.030Z  
 
 ```java
 import java.util.*;
@@ -74,7 +74,7 @@ class Codechef
 		    if(k<=n)
 		    System.out.println("0");
 		    else
-		    System.out.println(2*(k-n));
+		    System.out.println(2*(n-k));
 		}
 	}
 }
