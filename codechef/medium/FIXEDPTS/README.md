@@ -55,7 +55,7 @@ Yes
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T15:53:29.237Z  
+**Submitted:** 2026-09-16T15:59:44.189Z  
 
 ```java
 import java.util.*;
@@ -67,6 +67,16 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		while(t-->0){
+		    int n = sc.nextInt();
+		    int k = sc.nextInt();
+		    if(k == n-1)
+		    System.out.println("no");
+		    else
+		    System.out.println("yes");
+		}
 
 	}
 }
