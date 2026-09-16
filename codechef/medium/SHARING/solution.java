@@ -11,10 +11,10 @@ class Codechef
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int c =a-b;
-		if(k<=n)
-		System.out.println("0");
+		if((a+b)%2==0)
+		System.out.println(c/2);
 		else
-		System.out.println(2*(k-n));
+		System.out.println("-1");
 
 	}
 }
