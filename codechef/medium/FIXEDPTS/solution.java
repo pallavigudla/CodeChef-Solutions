@@ -7,6 +7,16 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		while(t-->0){
+		    int n = sc.nextInt();
+		    int k = sc.nextInt();
+		    if(k == n-1)
+		    System.out.println("no");
+		    else
+		    System.out.println("yes");
+		}
 
 	}
 }
