@@ -64,7 +64,7 @@ The total  **profit**  is then the amount  **received**  minus the amount  **spe
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T04:30:14.804Z  
+**Submitted:** 2026-09-27T04:30:27.479Z  
 
 ```java
 import java.util.*;
