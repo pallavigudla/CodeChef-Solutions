@@ -13,9 +13,9 @@ class Codechef
 		    char a = sc.next().charAt(0);
 		    char b = sc.next().charAt(0);
 		    char c = sc.next().charAt(0);
-		    char d = sc.next().charAt(0);
-		    char e = sc.next().charAt(0);
-		    if (a == d || a == e)
+		    char x = sc.next().charAt(0);
+		    char y = sc.next().charAt(0);
+		    if (a == x || a == y)
                 System.out.println(a);
             else
                 System.out.println(b);
