@@ -63,7 +63,7 @@ Thus, after $16$ minutes, the battery will be $50\%$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T05:30:30.926Z  
+**Submitted:** 2026-09-27T05:42:29.159Z  
 
 ```java
 import java.util.*;
@@ -88,7 +88,7 @@ class Codechef
                 if (diff % 2 == 0)
                     System.out.println(diff / 2);
                 else
-                    System.out.println((diff + 5) / 2);
+                    System.out.println(((diff + 3) / 2)+1);
             }
             else {
                 int diff = N - 50;
@@ -96,9 +96,9 @@ class Codechef
                 if (diff % 3 == 0)
                     System.out.println(diff / 3);
                 else if (diff % 3 == 1)
-                    System.out.println((diff + 5) / 3);
+                    System.out.println(((diff + 2) / 3)+1);
                 else
-                    System.out.println((diff + 10) / 3);
+                    System.out.println(((diff + 4) / 3)+2);
             }
         }
 	}
